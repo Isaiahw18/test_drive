@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 ## import the data!
-datafile = pd.read_excel(r'/Users/willjr/Library/CloudStorage/Box-Box/Salary_Data.xlsx')
+datafile = pd.read_excel(r'Salary_Data.xlsx')
 datafile
 
 
