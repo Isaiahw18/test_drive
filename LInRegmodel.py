@@ -98,5 +98,5 @@ st.image("""https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:
 st.header('Enter Experience in years:')
 st.number_input("Enter Int Value:")
 salary = predict(datafile)
-st.success('f'your predicted salary total is ${salary[0]:.2f} USD')')
+st.success()
 
