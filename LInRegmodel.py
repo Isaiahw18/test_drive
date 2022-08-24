@@ -96,7 +96,7 @@ plt.show()
 st.title('Salary Estimate Predictor')
 st.image("""https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTY4NjUwNDYyNTYzNDExNTkx/why-dominion-diamonds-second-trip-to-the-block-may-be-different.png""")
 st.header('Enter Experience in years:')
-st.number_input("Enter Int Value:", min_value:0.1, max_value:12)
+st.number_input("Enter Int Value:", min_value:'0.1', max_value:'12')
 salary = predict(datafile)
 st.success('f'your predicted salary total is ${salary[0]:.2f} USD')')
 
