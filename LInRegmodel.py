@@ -75,19 +75,6 @@ plt.ylabel('Salary')
 plt.show()
 
 
-# In[18]:
-
-
-# the Line passes through a couple data points , i dont think this data was linear for the training data.
-
-
-# In[19]:
-
-
-plt.scatter(X, y, color = 'red')
-plt.plot(X, regressor.predict(X, color = 'blue')
-plt.title('Salary vs Experience (Test set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
-plt.show()
-
+         
+         
+ 
