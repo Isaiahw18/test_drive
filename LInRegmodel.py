@@ -96,6 +96,6 @@ plt.show()
 st.title('Salary Estimate Predictor')
 st.header('Years Expericne:')
 st.number_input("Enter Int Value:")
-salary = regressor.predict('Salary')
+salary = regressor.predict('Salary', array.reshape(-1, 1))
 st.success()
 
