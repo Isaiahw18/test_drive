@@ -99,6 +99,6 @@ st.header('Input Experience in years:')
 
 def predict():
    prediction = model.predict(pd.Datafile([['Years']], columns=['Salary']))
-   prediction = st.number_input('Experience (yr):', min_value=0.1, max_value=10.0, value=1.0)
-         return prediction
+   prediction = st.number_input('Experience (yr):', min_value=0.1, max_value=10.0, value=(1.0)
+                                return prediction
 
